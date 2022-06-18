@@ -1,0 +1,99 @@
+.SignIn-container {
+    min-height: calc(100vh - 220px);
+}
+
+.border-panel-row {
+    align-items: center;
+    justify-content: center;
+    background: url(../images/panel_border_row.png) no-repeat;
+    background-size: 100% 100%;
+}
+.border-panel-col {
+    align-items: center;
+    justify-content: center;
+    background: url(../images/panel_border_col.png) no-repeat;
+    background-size: 100% 100%;
+}
+.border-panel-item {
+    align-items: center;
+    justify-content: center;
+    background: url(../images/panel_border_item.png) no-repeat;
+    background-size: 100% 100%;
+}
+.border-panel-item:hover {
+    background: url(../images/panel_border_item_hover.png) no-repeat;
+    background-size: 100% 100%;
+}
+.divider {
+    background: url(../images/divider.png) no-repeat;
+    background-position-x: -25px;
+}
+.SignIn .header {
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.SignIn .StarWalletIcon, .SignIn .WalletIcon {
+    margin-bottom: 25px;
+    width: 180px;
+    height: 180px;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    border-radius: 100%;
+}
+
+.StarWalletIcon {
+    fill: none;
+    stroke: currentcolor;
+    stroke-width: 3.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.SignIn .StarWalletIcon svg {
+    fill: var(--background);
+}
+
+
+.SignIn .message {
+    text-align: center;
+    color: var(--secondary-text);
+    font-size: 16px;
+    padding: 0px 38px;
+}
+
+.SignIn .ui.button {
+    margin-top: 40px;
+    flex: 0 0 auto;
+}
+
+.ui.button.primary {
+    background-color: var(--primary);
+    color: var(--text-on-primary);
+}
+
+.ui.primary.button {
+    box-shadow: rgba(34, 36, 38, 0.15) 0px 0px 0px 0px inset;
+}
+
+.ui.primary.button, .ui.primary.buttons .button {
+    background-color: rgb(33, 133, 208);
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    background-image: none;
+}
+
+.ui.button, .ui.button.secondary {
+    background-color: var(--secondary);
+    color: var(--text-on-secondary);
+}
+
+.bg-input {
+    background-color: rgba(0, 0, 0, 0.25);
+}

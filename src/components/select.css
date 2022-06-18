@@ -1,0 +1,119 @@
+/* .select-container {
+
+} */
+
+.select-1 > .select__control {
+  background: linear-gradient(
+    270deg,
+    #761f4f 0%,
+    #2e2041 46.88%,
+    #322d57 100%
+  ) !important;
+  box-shadow: none !important;
+  border-radius: 3px !important;
+}
+
+.select-1 > .select__control:before {
+  display: none;
+}
+
+.select-1 .select__value-container {
+  text-align: center;
+}
+
+.select__control {
+  box-sizing: border-box;
+  border: none !important;
+  border-radius: 6px !important;
+  text-align: left;
+  background: #1b1c1e !important;
+  box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.8),
+    inset 5px 4px 8px rgba(0, 0, 0, 0.25) !important;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.select__control:after {
+  content: "";
+}
+
+.select__control:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #ca2381 0%, #4d3e8f 100%);
+  padding: 1px;
+  border-radius: 6px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.select__value-container {
+  padding: 5px 10px !important;
+  color: white !important;
+}
+
+.select__single-value {
+  color: white !important;
+}
+
+/* .select__indicators {
+    
+  } */
+
+.select__indicator-separator {
+  display: none;
+}
+
+.select__menu {
+  border: none !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: left;
+  background: #403258 !important;
+  color: white !important;
+  box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.8),
+    inset 5px 4px 8px rgba(0, 0, 0, 0.25) !important;
+}
+/* 
+  .select__menu-list {
+  
+  } */
+
+.select__option {
+  cursor: pointer !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.select__option:hover,
+.select__option.selected {
+  background: #1d556bb5 !important;
+}
+
+.select__option--is-selected,
+.select__option--is-focused {
+  background: #1d556bb5 !important;
+}
+
+.select__indicator > svg {
+  fill: white !important;
+}
+
+.select__multi-value {
+  background: rgba(25, 31, 67, 0.85) !important;
+}
+
+.select__multi-value__label {
+  color: white !important;
+}
+
+.select__multi-value__remove:hover {
+  background-color: #161938 !important;
+  color: white !important;
+}

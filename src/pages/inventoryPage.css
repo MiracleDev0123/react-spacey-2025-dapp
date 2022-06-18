@@ -1,0 +1,161 @@
+.inventory .header {
+    width: 100%;
+    height: 62px;
+    background: linear-gradient(90deg, rgba(73, 62, 143, 0.5) 1.95%, rgba(213, 33, 127, 0.5) 100%);
+}
+
+.inventory .sub-title {
+    height: 62px;
+}
+
+.inventory .header-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, #493E8F 1.95%, #D5217F 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.Row {
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.NFTSidebar>.sidebar.sub-header {
+    margin-top: 3px;
+    margin-bottom: 22px;
+}
+
+.NFTSidebar>.sub-header {
+    text-transform: none;
+    color: #676370;
+    color: var(--secondary-text);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.NFTSidebar>ul.Menu {
+    margin-left: -16px;
+    padding: 0;
+}
+
+.NFTSidebar>.Menu {
+    --menu-item-width: 248px;
+    --menu-sub-item-width: 232px;
+    margin-right: 24px;
+    width: var(--menu-item-width);
+}
+
+.NFTSidebar>ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.NFTSidebar>ul.Menu li.active {
+    cursor: default;
+}
+.NFTSidebar>ul.Menu li.active, ul.Menu li:hover {
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--card);
+}
+.NFTSidebar>ul.Menu li {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -.2;
+    list-style: none;
+    padding: 9px 16px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+.NFTSidebar>.MenuItem {
+    display: flex;
+}
+
+
+.NFTBrowse .topbar {
+    margin-bottom: 24px;
+}
+.NFTFilters .topbar {
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.NFTFilters .topbar>.full-width, .NFTFilters .topbar>.TextFilter {
+    flex: 1 0 auto;
+    margin-right: 30px;
+}
+
+.NFTFilters .topbar>.TextFilter .text-input input {
+    padding-top: 0;
+    font-size: 15px;
+    background-position-y: 4px;
+}
+.TextFilter .text-input input {
+    font-size: 17px;
+    line-height: 20px;
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: var(--font-family);
+    border: none;
+    border-radius: 6px;
+    padding: 6px 6px 6px 36px;
+    outline: none;
+    width: 100%;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 8px;
+}
+button, input {
+    overflow: visible;
+}
+
+.NFTBrowse .ui.cards {
+    min-height: 200px;
+}
+
+.NFTBrowse .Row .right.Column, .NFTBrowse .ui.cards {
+    position: relative;
+}
+
+.NFTBrowse.ui.cards {
+    display: flex;
+    margin: -0.875em -0.5em;
+    flex-wrap: wrap;
+}
+
+
+.ui.cards {
+    display: flex;
+    margin: -0.875em -0.5em;
+    flex-wrap: wrap;
+}
+
+
+
+.NFTBrowse .ui.cards+.empty {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: var(--secondary-text);
+}
+
+.Row>.Column.grow {
+    flex: 1 1 auto;
+}

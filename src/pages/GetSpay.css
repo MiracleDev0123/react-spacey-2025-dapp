@@ -1,0 +1,10 @@
+.text-purple {
+    color: #8F6EC9;
+}
+
+.spay-item {
+  background: url(../images/spay_border.png) no-repeat;
+  background-size: 100% 100%;
+  max-width: 300px;
+  padding: 16px 22px;
+} 
